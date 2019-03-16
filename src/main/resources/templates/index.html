@@ -1,0 +1,15 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Getting Started: Serving Web Content</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <script th:src="@{/js/requests.js}"></script>
+    <link th:href="@{/css/style.css}" rel="stylesheet">
+</head>
+<body>
+<button id="room" onclick="enterRoom()" >Enter to room</button>
+<div id="image">
+</div>
+<button id="state" onclick="changeState()" style="visibility: hidden">change state</button>
+</body>
+</html>
