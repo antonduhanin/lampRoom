@@ -45,6 +45,7 @@ function changeState() {
     xhr.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
     checkState(xhr);
 }
+
 function checkState(xhr) {
     var xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function() {
