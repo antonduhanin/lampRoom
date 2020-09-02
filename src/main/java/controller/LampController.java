@@ -25,5 +25,4 @@ public class LampController {
         Lamp.stateLamp = Boolean.parseBoolean(String.valueOf(node.get("value")));
         return Lamp.stateLamp;
     }
-
 }
